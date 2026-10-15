@@ -46,7 +46,7 @@ window.CV_I18N.fr = {
     "b2c": "Mise en place de Cloud Functions et déploiement sur les stores",
     "b2d": "Entretiens techniques pour le recrutement",
     "d3": "Avril 2019 – Juillet 2022",
-    "c3": "<strong>FAIRWAYS DETTE</strong>, outils de gestion de la dette et des risques financiers. Équipes de 8 à 10 personnes en méthode Scrum. Mission : amélioration continue de l'application, création et amélioration de modules.",
+    "c3": "<strong>FAIRWAYS DEBT</strong>, outils de gestion de la dette et des risques financiers. Équipes de 8 à 10 personnes en méthode Scrum. Mission : amélioration continue de l'application, création et amélioration de modules.",
     "b3a": "Import / export de produits financiers et de leurs échéanciers (XLS, XML)",
     "b3b": "Nouveaux écrans et formulaires en Tapestry, puis migration d'écrans Tapestry vers Angular",
     "b3c": "Création d'un nouveau projet en Angular avec de nouveaux écrans et formulaires",

@@ -46,7 +46,7 @@ window.CV_I18N.en = {
     "b2c": "Set up Cloud Functions and deployed to the app stores",
     "b2d": "Conducted technical interviews for recruitment",
     "d3": "April 2019 – July 2022",
-    "c3": "<strong>FAIRWAYS DETTE</strong>, tools for managing debt and financial risk. Teams of 8 to 10 working with Scrum. Mission: continuous improvement of the application, and creation and improvement of modules.",
+    "c3": "<strong>FAIRWAYS DEBT</strong>, tools for managing debt and financial risk. Teams of 8 to 10 working with Scrum. Mission: continuous improvement of the application, and creation and improvement of modules.",
     "b3a": "Import / export of financial products and their repayment schedules (XLS, XML)",
     "b3b": "New screens and forms in Tapestry, then migration of Tapestry screens to Angular",
     "b3c": "Created a new Angular project with new screens and forms",
