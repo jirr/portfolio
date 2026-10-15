@@ -22,7 +22,7 @@ window.CV_I18N.fr = {
     "n.contact": "Contact",
     "dl": "Télécharger le CV (PDF)",
     "eyebrow": "Disponible pour de nouvelles opportunités",
-    "role": "Développeur Fullstack & Expert IA",
+    "role": "Développeur Fullstack & AI",
     "pitch": "Développeur fullstack dans les domaines de la logistique et de la finance, et en développement mobile pour une application de rencontre que j'ai cofondée. Je travaille avec Java, Spring, Kafka, Angular et React Native.",
     "card.now": "Actuellement",
     "j.fs": "Développeur Fullstack",

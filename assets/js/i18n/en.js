@@ -22,7 +22,7 @@ window.CV_I18N.en = {
     "n.contact": "Contact",
     "dl": "Download CV (PDF)",
     "eyebrow": "Available for new opportunities",
-    "role": "Fullstack Developer & AI Expert",
+    "role": "Fullstack Developer & AI",
     "pitch": "Fullstack developer working in the logistics and finance domains, and on mobile development for a dating app I co-founded. I build with Java, Spring, Kafka, Angular and React Native.",
     "card.now": "Currently",
     "j.fs": "Fullstack Developer",
