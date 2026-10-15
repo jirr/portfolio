@@ -38,7 +38,7 @@ window.CV_I18N=(function(){
     "edu.h":"Formation &amp; certifications","edu.t":"Formation","cert.t":"Certifications",
     e1:"Master 2 – Fondements de l'Informatique et Ingénierie du Logiciel",e2:"Master 1 – Informatique",e3:"Licence – Économie et Informatique",
     cd1:"Mai 2018",cd2:"Décembre 2018",
-    remote:"Télétravail complet",
+    remote:"Télétravail",
     "c.sub":"Un projet en commun ? Contactez-moi par email ou par téléphone, ou téléchargez mon CV.",
     top:"Haut de page <span aria-hidden=\"true\">↑</span>"
   };
