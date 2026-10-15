@@ -1,10 +1,7 @@
 (function(){
   var root=document.documentElement;
-  var FR=window.CV_I18N.FR,T=window.CV_I18N.T;
-  var EN={},ENA={};
+  var I18N=window.CV_I18N;
   var txt=document.querySelectorAll('[data-i18n]'),aria=document.querySelectorAll('[data-i18n-aria]');
-  txt.forEach(function(e){var k=e.dataset.i18n;if(!(k in EN))EN[k]=e.innerHTML});
-  aria.forEach(function(e){var k=e.dataset.i18nAria;if(!(k in ENA))ENA[k]=e.getAttribute('aria-label')});
   var meta=function(s){return document.querySelector(s)};
   function store(k,v){try{localStorage.setItem(k,v)}catch(e){}}
   var live=document.getElementById('live');
@@ -12,23 +9,23 @@
 
   var langBtn=document.getElementById('langBtn'),themeBtn=document.getElementById('themeBtn');
   function setLang(l,save){
-    var fr=l==='fr',D=fr?FR:EN,A=fr?FR:ENA,t=T[l];
+    var d=I18N[l],t=d.ui;
     root.lang=l;
-    txt.forEach(function(e){e.innerHTML=D[e.dataset.i18n]});
-    aria.forEach(function(e){e.setAttribute('aria-label',A[e.dataset.i18nAria])});
+    txt.forEach(function(e){e.innerHTML=d.strings[e.dataset.i18n]});
+    aria.forEach(function(e){e.setAttribute('aria-label',d.strings[e.dataset.i18nAria])});
     document.title=t.title;
     meta('meta[name=description]').content=t.desc;
     meta('meta[property="og:title"]').content=t.title;
     meta('meta[property="og:description"]').content=t.ogdesc;
     document.getElementById('langLabel').textContent=t.langLabel;
     langBtn.setAttribute('aria-label',t.langAria);
-    langBtn.lang=fr?'en':'fr';
+    langBtn.lang=l==='fr'?'en':'fr';
     setTheme(root.dataset.theme,false);
     if(save){store('lang',l);announce(t.annLang)}
   }
   function setTheme(th,save){
     root.dataset.theme=th;
-    var t=T[root.lang==='fr'?'fr':'en'];
+    var t=I18N[root.lang].ui;
     themeBtn.setAttribute('aria-label',th==='light'?t.toDark:t.toLight);
     meta('meta[name=theme-color]').content=th==='light'?'#F6F5F2':'#0E0E0F';
     if(save){store('theme',th);announce(th==='light'?t.annLight:t.annDark)}
@@ -36,7 +33,7 @@
   langBtn.addEventListener('click',function(){setLang(root.lang==='fr'?'en':'fr',true)});
   themeBtn.addEventListener('click',function(){setTheme(root.dataset.theme==='light'?'dark':'light',true)});
   var sl=null;try{sl=localStorage.getItem('lang')}catch(e){}
-  if(sl==='fr')setLang('fr',false);else setTheme(root.dataset.theme,false);
+  setLang(sl==='fr'?'fr':'en',false);
 
   var nav=document.getElementById('nav'),hero=document.getElementById('top'),
       burger=document.getElementById('burger'),menu=document.getElementById('menu');
