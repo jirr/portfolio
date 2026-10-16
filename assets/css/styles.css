@@ -156,6 +156,9 @@ section.s.alt{background:var(--bg2)}
 .card{background:linear-gradient(160deg,var(--surface),var(--bg2));border:1px solid var(--line);border-radius:16px;padding:1.75rem;box-shadow:var(--shadow);transition:border-color .25s,transform .25s}
 .card:hover{border-color:var(--accent-line);transform:translateY(-2px)}
 .card h3{font:600 .85rem var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--accent-soft);margin-bottom:1.1rem}
+.card .proj-h{display:flex;align-items:center;gap:.85rem;margin-bottom:1.1rem}
+.card .proj-h h3{margin:0}
+.card .proj-h img{width:44px;height:44px;border-radius:10px;flex:none}
 .card .tags li{background:var(--bg);color:var(--text)}
 .two{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
 .edu{list-style:none;display:grid;gap:1.4rem}
