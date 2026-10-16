@@ -20,6 +20,8 @@ window.CV_I18N.fr = {
     "n.proj": "Projets",
     "proj.streak": "Projet personnel : une application web de suivi de séries, installable en PWA sur mobile.",
     "proj.open": "Ouvrir Streak",
+    "proj.scratch": "Projet personnel : gratte la carte du monde là où tu es allé. Tes données restent sur ton appareil.",
+    "proj.open2": "Ouvrir Scratch World",
     "n.skills": "Compétences",
     "n.edu": "Formation",
     "n.contact": "Contact",

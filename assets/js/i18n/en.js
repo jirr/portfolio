@@ -20,6 +20,8 @@ window.CV_I18N.en = {
     "n.proj": "Projects",
     "proj.streak": "Personal project: a series-tracking web app, installable as a PWA on mobile.",
     "proj.open": "Open Streak",
+    "proj.scratch": "Personal project: scratch off a world map where you've been. Your data stays on your device.",
+    "proj.open2": "Open Scratch World",
     "n.skills": "Skills",
     "n.edu": "Education",
     "n.contact": "Contact",
