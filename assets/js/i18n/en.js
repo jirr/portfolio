@@ -22,6 +22,8 @@ window.CV_I18N.en = {
     "proj.open": "Open Streak",
     "proj.scratch": "Personal project: scratch off a world map where you've been. Your data stays on your device.",
     "proj.open2": "Open Scratch World",
+    "proj.fifty": "Personal project: a community A/B voting PWA. Two sides, one vote, then debate in the comments.",
+    "proj.open3": "Open Fifty50",
     "n.skills": "Skills",
     "n.edu": "Education",
     "n.contact": "Contact",

@@ -22,6 +22,8 @@ window.CV_I18N.fr = {
     "proj.open": "Ouvrir Streak",
     "proj.scratch": "Projet personnel : gratte la carte du monde là où tu es allé. Tes données restent sur ton appareil.",
     "proj.open2": "Ouvrir Scratch World",
+    "proj.fifty": "Projet personnel : une PWA de vote communautaire A/B. Deux camps, un vote, puis débat en commentaires.",
+    "proj.open3": "Ouvrir Fifty50",
     "n.skills": "Compétences",
     "n.edu": "Formation",
     "n.contact": "Contact",
